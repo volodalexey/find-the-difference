@@ -1,9 +1,0 @@
-{
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  "search.exclude": {
-    "**/dist": true,
-    "src-texture": true,
-    "src-tiled": true
-  }
-}
