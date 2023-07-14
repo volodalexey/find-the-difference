@@ -34,6 +34,7 @@ export class SplitLayerView extends Container {
   }
 
   drawMask() {
+    this.mainSpriteMask.clear();
     this.mainSpriteMask.beginFill(0xffffff);
     this.mainSpriteMask.position.set(this.mainSprite.x, this.mainSprite.y);
     this.mainSpriteMask.drawRoundedRect(0, 0, this.mainSprite.width, this.mainSprite.height, SplitLayerView.options.borderRadius);
