@@ -1,5 +1,7 @@
 # Find the difference (PixiJS) Game
 
+# [DEMO](https://volodalexey.github.io/find-the-difference/)
+
 - Use none minified version of PixiJS (ES module `mjs`)
 - `SceneManager` mounts and unmounts current-active `*Scene`
 - `LoaderSceneView` in resize:
