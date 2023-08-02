@@ -1,6 +1,6 @@
 export class Resources {
-  static baseUrl = 'https://hgstudio.ru/jstesttask/levels';
-  // static baseUrl = './assets';
+  // static baseUrl = 'https://hgstudio.ru/jstesttask/levels';
+  static baseUrl = './assets';
 
   static intoLevelId(levelId) {
     return `level-${levelId}`
